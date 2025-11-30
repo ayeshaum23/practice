@@ -1,5 +1,44 @@
-@import 'node_modules/bootstrap/scss/bootstrap'
-@font-face {
-  font-family: myfont;
-  src: url(/practice/font/Caprasimo\ Regular\ 400.ttf);
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body {
+  margin: 0 auto;
+  overflow: hidden;
+} 
+/* header start */ 
+.container {
+  height: 1200px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+.nav-item a {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.logo {
+  align-items: center;
+  margin-left: 75px;
+}
+.bloom {
+  width: 1120px;
+  height: 149.98px;
+}
+.flower {
+  margin-top: 25px;
+  width: 1130px;
+  height: 450px;
+}
+/* header end*/
+/* section main start */
+.main {
+  height: 437px;
+  width: 1200px;
+}
+/* section main end */ 
